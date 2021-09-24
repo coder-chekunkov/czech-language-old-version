@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/good_smile" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:layout_toRightOf="@+id/imageView"
+        android:text="Верных ответов:"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        android:textSize="25dp" />
+
+    <TextView
+        android:textDirection="locale"
+        android:gravity="center"
+        android:id="@+id/count_good_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.5dp"
+        android:layout_toRightOf="@+id/textView"
+        android:text="125"
+        android:textColor="#000"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
